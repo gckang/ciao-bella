@@ -6,4 +6,26 @@
 
 Welcome to your new app.
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+
+@if(imageSource is not null)
+{
+	<p>
+		<img src="@imageSource" />
+	</p>
+}
+
+<button @onclick = "() => ShowImage()">
+</button>
+
+@code
+{
+	private string? imageSource;
+
+	private void ShowImage()
+	{
+		imageSource = $"images/faceplant.jpeg";
+	}
+}
+
+
+<!--<SurveyPrompt Title="How is Blazor working for you?" /> -->
