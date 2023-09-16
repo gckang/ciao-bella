@@ -3,6 +3,9 @@
 html, body {
     font-family: callie;
     background-color: rgb(178, 164, 150);
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
 }
 
 h1 {
@@ -74,12 +77,10 @@ a, .btn-link {
     }
 
 
-.img-container
-{
-    
-}
-.banner_image
-{
-    width: 70vw;
+.banner_image {
+    width: 100%;
     height: auto;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
 }
