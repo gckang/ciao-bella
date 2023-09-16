@@ -27,6 +27,7 @@ html, body {
 }
 
 .img-grid {
+    width: 70vw;
     --gap: 20px;
     --num-cols: 3;
     --row-height: 20;
