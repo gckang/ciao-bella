@@ -1,0 +1,22 @@
+﻿@import url('https://fonts.googleapis.com/css?family=KleeOne&display=swap');
+
+html, body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.title {
+    font-size: 7vw;
+}
+
+.subtitle {
+    font-size: 3vw;
+}
+
+.img-container {
+}
+
+.image {
+    width: 70vw;
+    height: auto;
+}
