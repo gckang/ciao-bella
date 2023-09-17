@@ -10,10 +10,12 @@ html, body {
 
 h1 {
     font-family: callie;
+    margin:2vw;
 }
 
 p {
     font-family: callie;
+    margin: 0vw;
 }
 
 

@@ -16,8 +16,11 @@ html, body {
     text-align: center;
 }
 
-.h1{
+.h1 {
     font-family: callie;
+    margin: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
 }
 .title {
     font-family: callie;
@@ -28,10 +31,16 @@ html, body {
     font-size: 3vw;
 }
 
+.text {
+    font-size: 2vw;
+    margin-top: 1vw;
+}
+
 .icons {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(32%, 32%));
+    grid-template-columns: repeat(auto-fill, minmax(24%, 24%));
     gap: 0px;
+    margin-bottom: 3vw;
 }
 
 .icon {
