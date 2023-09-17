@@ -28,7 +28,22 @@ html, body {
     font-size: 3vw;
 }
 
-.img_container {
+.icons {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(32%, 32%));
+    gap: 0px;
+}
+
+.icon {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-size: 2vw;
+}
+
+.banner_image {
     padding: 0px;
     margin: 0px;
     border: 0px;
@@ -36,21 +51,11 @@ html, body {
     margin-right: 0;
     margin-top: 0;
     margin-bottom: 0;
-}
-
-.banner_image {
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    margin-left: 0; 
-    margin-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    
     width: 100%;
     height: auto;
 }
-.banner_image > img{
+
+.banner_image > img {
     display: block;
     width: 100%;
 }
