@@ -3,31 +3,33 @@
 html, body {
     font-family: callie;
     text-align: center;
+    padding-top: 0;
+}
+
+.main_top {
+    z-index: 1;
+    background-color: red;
 }
 
 .background_section {
+    width: 100vw;
+    height: 70vw;
     background-position: center;
     background-attachment: fixed;
-    height: 300px;
-    width: auto;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-color: lightblue;
+    background-image: url('/images/small-box.jpg');
 }
 
 .title {
+    text-align: center;
     font-family: callie;
     font-size: 7vw;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: grey;
-    background-position: center;
-    background-repeat: no-repeat;
+    position: sticky; 
 }
 
 .long_bar {
     height: 2px;
-    width: 72vw;
+    width: 100vw;
     background-color: black;
 }
 

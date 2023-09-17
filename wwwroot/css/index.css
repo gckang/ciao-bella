@@ -20,6 +20,8 @@ html, body {
     font-family: callie;
 }
 .title {
+    left: 50vw;
+    height: 50vw;
     font-family: callie;
     font-size: 7vw;
 }
