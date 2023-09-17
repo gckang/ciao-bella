@@ -1,12 +1,34 @@
-﻿
+﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
 html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: callie;
     text-align: center;
 }
 
+.background_section {
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: lightblue;
+}
+
 .title {
+    font-family: callie;
     font-size: 7vw;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: grey;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.long_bar {
+    height: 2px;
+    width: 72vw;
+    background-color: black;
 }
 
 .subtitle {
@@ -40,9 +62,16 @@ html, body {
     grid-auto-rows: var(--row-height);
     gap: var(--gap);
 }
+img{
+    transition: transform .2s;
+}
 
 .img-grid > img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+img:hover{
+    transform:scale(1.3);   
 }
